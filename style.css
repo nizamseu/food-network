@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    
+}
+h1{
+    font-size: 50px;
+    color: #555555;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.color{
+    color: #FC8B47
+}
+
+.banner{
+    display: flex;
+}
+.banner-half{
+    width: 50%;
+    padding-left: 50px;
+}
+.banner-half img{
+    width: 80%;
+}
+.banner-half p{
+    margin-bottom: 80px;
+}
+.buttion{
+    text-decoration: none;
+   background-image: linear-gradient(to right,#FC8B47,tomato);
+   padding: 20px 50px;
+   border-radius: 30px;
+   color: white;
+   box-shadow: 0 10px 25px tomato;
+  font-weight: 700px;
+}
+.about-me{
+    background-image: url("images/shapes/7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 530px;
+    margin-top: 30px;
+}
+.about-me-half{
+    width: 50%;
+    padding: 30px 70px;
+    text-align: justify;
+}
+.about-me-half img{
+   height: 400px;
+   margin-top: 100px;
+   margin-left: 15%;
+}
+.about-buttion{
+    margin-top: 100px;
+}
+.recipies-top{
+    text-align: center;
+}
+.recipies-top p{
+    padding: 10px 300px;
+}
+.recipes-card{
+    display: flex;
+    margin:10px 20px;
+}
+.card{
+width: 30%;
+height: 450px;
+border-radius: 30px;
+padding: 20px;
+box-shadow: 10px 10px 15px gray;
+margin-left: 5%;
+}
+.card img{
+    width: 100%;  
+    height: 50%;
+}
+.social{
+    margin: 70px 30px;
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 10px 10px 40px gray; 
+}
+.social-card{
+  width: 30%;
+  padding: 20px 50px;
+  text-align: center;
+}
+.social-card h3{
+    color: black;
+    font-size: 40px;
+    padding-bottom: 0;
+}
+.footer{
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+    background-color: black;
+}
+.footer p{
+    color: white;
+}
+.chef-main{
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.chef-top{
+    text-align: center;
+    padding: 0 300px;
+    margin-bottom: 30px;
+   
+}
+.chef{
+    display: flex;
+    
+}
+.chef-card{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 10px 10px 30px gray;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: justify;
+    width: 30%;
+    
+}
+.chef-card-info{
+    padding-left: 10px;
+}
+.chef-card img{
+    width: 150px;
+    height: 150px;
+}
